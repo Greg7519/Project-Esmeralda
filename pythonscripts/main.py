@@ -6,10 +6,6 @@ import sounddevice as sd
 from google import generativeai as genai
 from scipy.io import wavfile
 import os
-import wave
-import time
-import pyaudio
-import sys
 import dotenv
 dotenv.load_dotenv()
 #add pyttsx3 version 2.91
@@ -82,7 +78,6 @@ class VoiceAssistant():
 VoiceAssistant1 = VoiceAssistant("Hello")
 instruction =""
 VoiceAssistant1.engine.say("Enter an instruction, exit to exit:")
-VoiceAssistant1.engine.runAndWait()
 instruction = VoiceAssistant1.recognizeVoice()
 try:
     text = VoiceAssistant1.geminiAIInstr(instruction)
