@@ -15,7 +15,8 @@ class VoiceAssistant():
             self.engine = pyttsx3.init()
             self.engine.setProperty('voice', 'com.apple.speech.synthesis.voice.samantha')
             self.client = genai.configure(api_key=os.getenv("AI_KEY"))
-            pyttsx3.speak("Hello I am Esmeralda!How can i be of help to you?")
+            self.greeting = "Hello I am Esmeralda!How can i be of help to you?"
+            pyttsx3.speak(self.greeting)
             
             
           
@@ -36,10 +37,6 @@ class VoiceAssistant():
        with sr.Microphone() as source:
             print("Talk")
             audio_text = r.listen(source, 10)
-            print("Time over, thanks")
-            # recoginze_() method will throw a request
-            # error if the API is unreachable,
-            # hence using exception handling
             
             try:
                 # using google speech recognition
@@ -76,13 +73,14 @@ class VoiceAssistant():
     
 
 VoiceAssistant1 = VoiceAssistant("Hello")
-instruction =""
-VoiceAssistant1.engine.say("Enter an instruction, exit to exit:")
-instruction = VoiceAssistant1.recognizeVoice()
-try:
-    text = VoiceAssistant1.geminiAIInstr(instruction)
-    print(text)
-except:
-    VoiceAssistant1.engine.say("AI unavailable!Please try again later!")
+
+# instruction =""
+# VoiceAssistant1.engine.say("Enter an instruction, exit to exit:")
+# instruction = VoiceAssistant1.recognizeVoice()
+# try:
+#     text = VoiceAssistant1.geminiAIInstr(instruction)
+#     print(text)
+# except:
+#     VoiceAssistant1.engine.say("AI unavailable!Please try again later!")
         
         
