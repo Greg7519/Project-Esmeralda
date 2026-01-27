@@ -1,9 +1,9 @@
-Esmeralda: Your personal Voice assistant < br / >
-✅V1(Console level):< br / >
-🎤Accepted audio input< br / >
-🎤Voice Recognition< br / >
-🤖Gemini integration< br / >
-🌐 Flask integration< br / >
+Esmeralda: Your personal Voice assistant <br/>
+✅V1(Console level):<br/>
+🎤Accepted audio input<br/>
+🎤Voice Recognition<br/>
+🤖Gemini integration<br/>
+🌐 Flask integration<br/>
 
 ✅V2(Adding react native frontend+ expanding features)< br / >
 📱Integrated expo+ react native for developing a chat frontend < br / >
