@@ -1,5 +1,8 @@
-Esmeralda: Your personal Voice assistant <br/>
-✅V1(Console level):<br/>
+<h1>Esmeralda: Your personal Voice assistant</h1> <br/>
+
+
+
+<h2>✅V1(Console level):</h2><br/>
 🎤Accepted audio input<br/>
 🎤Voice Recognition<br/>
 🤖Gemini integration<br/>
