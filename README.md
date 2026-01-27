@@ -3,18 +3,17 @@
 
 
 <h2>✅V1(Console level):</h2><br/>
-<br/>
-<br/>
+
 🎤Accepted audio input<br/>
 🎤Voice Recognition<br/>
 🤖Gemini integration<br/>
-🌐 Flask integration<br/>
+🌐 Flask integration
+<br/>
+<br/>
 <br/>
 ✅<h2>V2(Adding react native frontend+ expanding features)</h2><br/>
-<br/>
-<br/>
 
-<h2>📱Integrated expo+ react native for developing a chat frontend</h2><br/>
+📱Integrated expo+ react native for developing a chat frontend<br/>
 <br/>
 <br/>
 💬React native gifted chat used for that purpose<br/>
