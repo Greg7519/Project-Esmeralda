@@ -11,10 +11,9 @@
 <br/>
 <br/>
 <br/>
-✅<h2>V2(Adding react native frontend+ expanding features)</h2>
+<h2>✅V2(Adding react native frontend+ expanding features)</h2>
 
-📱Integrated expo+ react native for developing a chat frontend<br/>
-
+📱Integrated expo+ react native for developing a chat frontend
 💬React native gifted chat used for that purpose<br/>
 📁Expo used for file handling from android+web interfaces<br/>
 🎶 Necesseary conversions were performed at backend to convert m4a and webm files to wav for voice recognition<br/>
