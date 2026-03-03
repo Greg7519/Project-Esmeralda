@@ -111,6 +111,7 @@ def getMessage():
       print()
       
       try:
+            # this is for expo, must be changed if used with postman or web etc on all endpoints
             myDic = {'resp': VoiceAssistant.geminiAIInstr(data['body']['instruction'], False)}
       
       except Exception as e:
