@@ -32,6 +32,7 @@ Going from a general to a specific purpose voice assistant<br/>
 <h2>📝Instructions</h2>
 Clone this repository https://github.com/Greg7519/Project-Esmeralda.git<br/>
 Install all flask+ Voice assistant packages using python version 3.12.1(found this particular version working for all packages)<br/>
+Docker has been added for flask backend. You can run using docker run(after ruuning docker build) and also add enviromental api key for ai as well as well as frontend port. You can add using -e key. Make sure to port forward and run 0.0.0.0 instead of 127.0.0.1 because it wont work. 
 Install react native + expo and then use npm install on the folder to install the necesseary project dependencies<br/>
 In backend add your local gemini API key in .env file(same folder as main.py at python scripts folder) with the name API_KEY, as well as the domain of your frontend port/domain using ORIGIN name<br/>
 In frontend add EXPO_PUBLIC_API_URL with where your backend is active from<br/>
